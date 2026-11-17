@@ -2,8 +2,8 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#171512"><meta name="description" content="Cardápio digital demonstrativo do Kikão. Consulte produtos e escolha como pedir.">
-<title>Kikão — Cardápio digital</title>
+<meta name="theme-color" content="#171512"><meta name="description" content="Demonstração de cardápio digital. Consulte produtos e veja como funciona a experiência de pedido.">
+<title>Cardápio Digital — Demonstração</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -13,12 +13,12 @@
 </style>
 </head>
 <body>
-<div class="demo">Demonstração de experiência digital · Produtos e valores ilustrativos</div>
+<div class="demo">Demonstração de cardápio digital · Conteúdo ilustrativo</div>
 <header class="top">
  <div class="wrap">
   <div class="topline"><span><i class="dot"></i> Consulte disponibilidade e atendimento</span><span>Uma experiência mais simples para pedir</span></div>
   <nav class="nav">
-   <a class="brand" href="#"><span class="brandmark">K</span><span class="brandname">KIKÃO<small>LANCHES & BURGERS</small></span></a>
+   <a class="brand" href="#"><span class="brandmark">CD</span><span class="brandname">CARDÁPIO<small>DEMONSTRAÇÃO DIGITAL</small></span></a>
    <div class="navlinks"><a href="#cardapio">Cardápio</a><a href="#como-pedir">Como pedir</a><a href="#canais">Atendimento</a></div>
    <a class="navcta" href="#cardapio">Fazer pedido ↗</a>
   </nav>
@@ -26,8 +26,8 @@
 </header>
 <section class="hero">
  <div class="wrap hero-grid">
-  <div><div class="eyebrow">Bateu a fome? Chegou no lugar certo</div><h1>Seu pedido.<br><em>Do seu jeito.</em></h1><p>Explore o cardápio, escolha seus favoritos e encontre em um só lugar todas as formas de fazer seu pedido.</p><div class="hero-actions"><a class="btn btn-yellow" href="#cardapio">Explorar cardápio <span>↓</span></a><a class="btn btn-outline" href="#canais">Ver opções de pedido ↗</a></div></div>
-  <div class="hero-photo"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=85" alt="Hambúrguer artesanal com queijo e salada"><div class="photo-stamp">FEITO PRA<br>MATAR A FOME<span>• DESDE SEMPRE •</span></div></div>
+  <div><div class="eyebrow">Uma experiência digital para o seu negócio</div><h1>Seu pedido.<br><em>Do seu jeito.</em></h1><p>Explore o cardápio, escolha seus favoritos e encontre em um só lugar todas as formas de fazer seu pedido.</p><div class="hero-actions"><a class="btn btn-yellow" href="#cardapio">Explorar cardápio <span>↓</span></a><a class="btn btn-outline" href="#canais">Ver opções de pedido ↗</a></div></div>
+  <div class="hero-photo"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=85" alt="Exemplo de produto do cardápio"><div class="photo-stamp">CARDÁPIO<br>DIGITAL<span>• DEMONSTRAÇÃO •</span></div></div>
  </div>
 </section>
 <main>
@@ -35,30 +35,30 @@
   <a class="quick" href="#cardapio"><span class="quickicon">☰</span><span><strong>Ver cardápio</strong><small>Produtos e valores</small></span></a>
   <a class="quick" href="#" id="whatsQuick"><span class="quickicon">◉</span><span><strong>WhatsApp</strong><small>Peça diretamente</small></span></a>
   <a class="quick" href="#" id="deliveryQuick"><span class="quickicon">⌁</span><span><strong>Delivery próprio</strong><small>Peça pelo delivery</small></span></a>
-  <a class="quick" href="https://www.ifood.com.br/" target="_blank" rel="noopener"><span class="quickicon">▣</span><span><strong>iFood</strong><small>Peça pelo aplicativo</small></span></a>
-  <a class="quick" href="https://www.google.com/maps/search/?api=1&query=Kik%C3%A3o+Lajeado+RS" target="_blank" rel="noopener"><span class="quickicon">⌖</span><span><strong>Como chegar</strong><small>Ver localização</small></span></a>
+  <a class="quick" href="#" id="ifoodQuick"><span class="quickicon">▣</span><span><strong>iFood</strong><small>Peça pelo aplicativo</small></span></a>
+  <a class="quick" href="#" id="locationQuick"><span class="quickicon">⌖</span><span><strong>Como chegar</strong><small>Ver localização</small></span></a>
  </div>
  <section class="section wrap" id="cardapio">
-  <div class="sectionhead"><div><div class="kicker">Escolha o seu favorito</div><h2>Nosso cardápio</h2></div><p>Encontre seu próximo favorito. Adicione ao carrinho e escolha como deseja finalizar.</p></div>
+  <div class="sectionhead"><div><div class="kicker">Escolha o seu favorito</div><h2>Cardápio digital</h2></div><p>Encontre seu próximo favorito. Adicione ao carrinho e escolha como deseja finalizar.</p></div>
   <div class="filters" id="filters"><button class="filter active" data-cat="todos">Todos</button><button class="filter" data-cat="burgers">Hambúrgueres</button><button class="filter" data-cat="combos">Combos</button><button class="filter" data-cat="porcoes">Porções</button><button class="filter" data-cat="bebidas">Bebidas</button></div>
   <div class="products" id="products"></div>
  </section>
  <section class="how" id="como-pedir"><div class="wrap howbox"><div><div class="kicker">Sem complicação</div><h2>Você escolhe.<br>A gente facilita.</h2><p>Consulte os produtos, monte seu pedido e selecione o canal que funciona melhor para você. Tudo começa por aqui.</p></div><div class="steps"><div class="step"><b>1</b><span><strong>Explore o cardápio</strong><small>Veja categorias, fotos e detalhes dos produtos.</small></span></div><div class="step"><b>2</b><span><strong>Monte seu pedido</strong><small>Adicione seus itens e confira o resumo.</small></span></div><div class="step"><b>3</b><span><strong>Escolha como pedir</strong><small>Continue pelo WhatsApp ou acesse outro canal.</small></span></div></div></div></section>
 </main>
-<footer class="footer"><div class="wrap footerrow"><div><a class="brand" href="#"><span class="brandmark">K</span><span class="brandname">KIKÃO<small>LANCHES & BURGERS</small></span></a><p>Uma experiência simples para encontrar<br>o que você quer e pedir do seu jeito.</p></div><div class="footerlinks"><a href="#cardapio">Cardápio</a><a href="#canais">WhatsApp</a><a href="https://www.ifood.com.br/" target="_blank" rel="noopener">iFood</a><a href="https://www.google.com/maps/search/?api=1&query=Kik%C3%A3o+Lajeado+RS" target="_blank" rel="noopener">Localização</a></div></div></footer>
+<footer class="footer"><div class="wrap footerrow"><div><a class="brand" href="#"><span class="brandmark">CD</span><span class="brandname">CARDÁPIO<small>DEMONSTRAÇÃO DIGITAL</small></span></a><p>Exemplo de uma experiência digital para apresentar produtos e facilitar pedidos.</p></div><div class="footerlinks"><a href="#cardapio">Cardápio</a><a href="#canais">WhatsApp</a><a href="#" id="ifoodFooter">iFood</a><a href="#" id="locationFooter">Localização</a></div></div></footer>
 <button class="cartbar" id="cartbar"><span class="cartcount" id="cartcount">0</span><span>Ver meu pedido</span><span id="carttotal">R$ 0,00</span></button>
 <div class="overlay" id="overlay"></div><aside class="drawer" id="drawer"><div class="drawerhead"><h3>Seu pedido</h3><button class="close" id="close" aria-label="Fechar">×</button></div><div class="cartitems" id="cartitems"></div><div class="cartfoot"><div class="total"><span>Total</span><span id="drawerTotal">R$ 0,00</span></div><input id="customer" placeholder="Seu nome (opcional)"><textarea id="notes" placeholder="Observações do pedido (opcional)"></textarea><button class="btn send" id="send">Continuar pelo WhatsApp ↗</button><p style="font-size:9px;color:#8b8378;line-height:1.5">Demonstração: o contato oficial do estabelecimento será configurado após aprovação.</p></div></aside><div class="toast" id="toast"></div>
 <script>
 /* CONFIGURAÇÃO: substituir pelos links e contato oficiais antes de publicar para o estabelecimento. */
-const CONFIG={whatsapp:"",deliveryUrl:""};
+const CONFIG={whatsapp:"",deliveryUrl:"",ifoodUrl:"",locationUrl:""};
 const money=n=>n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
 const items=[
-{id:1,cat:"burgers",name:"Kikão Clássico",desc:"Pão macio, hambúrguer, queijo, alface, tomate e molho da casa.",price:26.90,img:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",tag:"Clássico"},
-{id:2,cat:"burgers",name:"Cheddar & Bacon",desc:"Hambúrguer suculento, cheddar cremoso e bacon crocante.",price:31.90,img:"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",tag:"Favorito"},
-{id:3,cat:"burgers",name:"Duplo da Casa",desc:"Dois hambúrgueres, queijo derretido, cebola e molho especial.",price:36.90,img:"https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80",tag:"Mais pedido"},
-{id:4,cat:"combos",name:"Combo Clássico",desc:"Hambúrguer clássico acompanhado de batata e bebida.",price:39.90,img:"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",tag:"Combo"},
-{id:5,cat:"porcoes",name:"Batata crocante",desc:"Porção de batatas douradas para compartilhar.",price:22.90,img:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",tag:"Porção"},
-{id:6,cat:"bebidas",name:"Refrigerante lata",desc:"Consulte os sabores disponíveis.",price:6.90,img:"https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=800&q=80",tag:"Geladinho"}
+{id:1,cat:"burgers",name:"Clássico da Casa",desc:"Pão macio, hambúrguer, queijo, alface, tomate e molho da casa.",price:26.90,img:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",tag:"Clássico"},
+{id:2,cat:"burgers",name:"Burger Especial",desc:"Hambúrguer suculento, cheddar cremoso e bacon crocante.",price:31.90,img:"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",tag:"Favorito"},
+{id:3,cat:"burgers",name:"Burger Duplo",desc:"Dois hambúrgueres, queijo derretido, cebola e molho especial.",price:36.90,img:"https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80",tag:"Mais pedido"},
+{id:4,cat:"combos",name:"Combo da Casa",desc:"Hambúrguer clássico acompanhado de batata e bebida.",price:39.90,img:"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",tag:"Combo"},
+{id:5,cat:"porcoes",name:"Porção de Batatas",desc:"Porção de batatas douradas para compartilhar.",price:22.90,img:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",tag:"Porção"},
+{id:6,cat:"bebidas",name:"Bebida em Lata",desc:"Consulte os sabores disponíveis.",price:6.90,img:"https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=800&q=80",tag:"Geladinho"}
 ];
 const cart={};let category="todos";
 const products=document.getElementById("products");
@@ -73,6 +73,10 @@ document.getElementById("cartbar").addEventListener("click",openCart);document.g
 let toastTimer;function toast(s){const el=document.getElementById("toast");el.textContent=s;el.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove("show"),2200)}
 function orderText(){const lines=Object.entries(cart).filter(([,q])=>q>0).map(([id,q])=>{const p=items.find(x=>x.id===+id);return q+"x "+p.name+" — "+money(p.price*q)});const t=totals();return "Olá! Gostaria de fazer este pedido:\n\n"+lines.join("\n")+"\n\nTotal: "+money(t.total)+"\nNome: "+(document.getElementById("customer").value||"Não informado")+"\nObservações: "+(document.getElementById("notes").value||"Nenhuma") }
 document.getElementById("send").addEventListener("click",()=>{if(!totals().count){toast("Adicione produtos antes de continuar");return}if(!CONFIG.whatsapp){navigator.clipboard?.writeText(orderText()).then(()=>toast("Resumo copiado! Configure o WhatsApp oficial para envio.")).catch(()=>toast("Demonstração: configure o WhatsApp oficial para envio."));return}window.open("https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent(orderText()),"_blank","noopener")});
+document.getElementById("ifoodQuick").addEventListener("click",e=>{e.preventDefault();if(CONFIG.ifoodUrl){window.open(CONFIG.ifoodUrl,"_blank","noopener")}else toast("Link do iFood será configurado para cada estabelecimento")});
+document.getElementById("ifoodFooter").addEventListener("click",e=>{e.preventDefault();if(CONFIG.ifoodUrl){window.open(CONFIG.ifoodUrl,"_blank","noopener")}else toast("Link do iFood será configurado para cada estabelecimento")});
+function openLocation(){if(CONFIG.locationUrl){window.open(CONFIG.locationUrl,"_blank","noopener")}else toast("Endereço e localização serão configurados para cada estabelecimento")}
+document.getElementById("locationQuick").addEventListener("click",e=>{e.preventDefault();openLocation()});document.getElementById("locationFooter").addEventListener("click",e=>{e.preventDefault();openLocation()});
 document.getElementById("deliveryQuick").addEventListener("click",e=>{e.preventDefault();if(CONFIG.deliveryUrl){window.open(CONFIG.deliveryUrl,"_blank","noopener")}else toast("Link do delivery próprio será configurado nesta demonstração")});
 function openWhats(){if(CONFIG.whatsapp){window.open("https://wa.me/"+CONFIG.whatsapp,"_blank","noopener")}else toast("Contato oficial será configurado nesta demonstração")}
 document.getElementById("whatsQuick").addEventListener("click",e=>{e.preventDefault();openWhats()});
