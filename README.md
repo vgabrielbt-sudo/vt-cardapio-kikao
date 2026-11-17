@@ -1,29 +1,31 @@
-# VT Cardápio — Kikão (demonstração)
+# VT Gastronomia
 
-Demonstração estática de cardápio digital, pensada para apresentar a centralização dos canais de atendimento e o fluxo de montagem de pedidos.
+Projeto demonstrativo e reutilizável da VT Sites para estabelecimentos do setor gastronômico.
+
+A proposta é reunir, em uma experiência digital adaptável, informações e caminhos de atendimento de restaurantes, pizzarias, hamburguerias, lancherias, cafeterias, confeitarias e outros negócios de alimentação. O cardápio e o fluxo de pedidos são funcionalidades do projeto — não o nome ou o limite do produto.
 
 ## Publicar na Vercel
 1. Importe este repositório na Vercel.
 2. Framework Preset: **Other**.
 3. Build Command: deixe vazio.
-4. Output Directory: `.`
+4. Output Directory: `. ` (use apenas `.`, sem espaço).
 5. Deploy.
 
-## Antes de apresentar como projeto oficial
-- Esta versão é uma demonstração. Os produtos, descrições, imagens e preços são ilustrativos.
-- Confirme com o estabelecimento a marca, cardápio, preços, fotos, endereço e canais oficiais.
-- No fim de `index.html`, edite o objeto `CONFIG`:
-  - `whatsapp`: número oficial com código do país e DDD, somente dígitos (ex.: 55 + DDD + número).
-  - `deliveryUrl`: reservado para o link do delivery próprio; atualizar o botão quando o link oficial for fornecido.
-- O botão do iFood está direcionado ao site geral do iFood nesta demonstração; substituir pelo link correto da loja.
-- O link de localização usa uma busca por “Kikão Lajeado RS”; confirmar o endereço oficial.
+## Antes de adaptar para um estabelecimento
+- Produtos, descrições, imagens e preços atuais são ilustrativos.
+- Substitua pelos dados, identidade visual e fotos autorizados pelo estabelecimento.
+- Configure no objeto `CONFIG`, no fim de `index.html`, os canais oficiais:
+  - `whatsapp`: número com código do país e DDD, somente dígitos.
+  - `deliveryUrl`: link do delivery próprio, se houver.
+  - `ifoodUrl`: link da loja no iFood, se houver.
+  - `locationUrl`: link da localização.
+- Confirme todos os links e teste o fluxo antes de apresentar como versão final.
 
-## Recursos incluídos
-- Layout responsivo, priorizando celular.
-- Filtros por categoria.
+## Recursos demonstrativos
+- Layout responsivo.
+- Categorias e apresentação de produtos.
 - Carrinho com quantidades e total.
-- Resumo de pedido com nome e observações.
-- Atalho de WhatsApp configurável.
-- Links de acesso aos canais externos.
+- Resumo do pedido com nome e observações.
+- Atalhos para os canais de atendimento configurados.
 
-Feito para a VT Sites.
+Feito pela **VT Sites**.
